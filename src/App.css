@@ -1,0 +1,49 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+ .App
+{
+    height: 400px;
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+} 
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.flex img 
+{
+    height: 300px;
+    width: 300px;
+}
+.btn1,.btn2
+{
+    padding: 10px 15px;
+   
+}
+.btn2
+{
+     margin-left: 10px;
+} 
+ button
+ {
+    margin-top: 50px;
+ }
+ .post
+ {
+    display: flex;
+    margin: 20px 0px;
+ }
